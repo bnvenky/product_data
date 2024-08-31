@@ -1,0 +1,74 @@
+
+
+
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: url('https://res.cloudinary.com/dhik9tnvf/image/upload/v1719905768/flat-design-shopping-pattern-design_23-2149656934_lbsyqj.avif') no-repeat center center;
+  background-size: cover;
+  color: #2c2222;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  color: #2c2222;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.nav-menu li {
+  margin: 0 16px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(30, 22, 17);
+  font-size: 18px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  display: block;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.nav-link:active {
+  color: #0056b3;
+}
+
+.logout-btn {
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: #c9302c;
+  transform: scale(1.1);
+}
+
+.logout-btn:active {
+  background-color: #ac2925;
+}
